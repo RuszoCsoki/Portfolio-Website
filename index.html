@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zoltan Ruszo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</head>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg sticky-top  bg-dark text-bg-dark p-3" data-bs-theme="dark"">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#about">About</a>
+                  <a class="nav-link" href="#html">HTML Projects</a>
+                  <a class="nav-link" href="#js">JS Projects</a>
+                  <a class="nav-link" href="#css">CSS Projects</a>
+                  <a class="nav-link" href="#bootstrap">Bootstrap Projects</a>
+                </div>
+              </div>
+            </div>
+    </nav>
+    <!--Navbar-->
+    <!--carousel-->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./img/cup-of-coffee.jpg" class="d-block w-100" alt="Cup of coffe">
+            <div class="carousel-caption d-none d-md-block text-light">
+              <h1>Zoltan Ruszo</h1>
+              <h5>Web Developer</h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./img/cyber.jpg" class="d-block w-100" alt="Cyber">
+            <div class="carousel-caption d-none d-md-block text-light">
+                <h1>Zoltan Ruszo</h1>
+                <h5>Web Developer</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/earth.jpg" class="d-block w-100" alt="Earth">
+            <div class="carousel-caption d-none d-md-block text-light">
+                <h1>Zoltan Ruszo</h1>
+                <h5>Web Developer</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!--carousel-->
+    <!--HTML portfolio-->
+    <div class="jumbotron jumbotron-fluid text-bg-light p-3 text-center">
+        <div class="container-fluid">
+            <h1 class="display-4" id="about">Welcome On My Website!</h1>
+            <p class="lead ">My name is Zoltan Ruszo, and I am a Web developer student at Learning of Academy. 
+                My passion and desire to become better in my field make me capable to show quick improvement as a Web Developer.
+            Keep checking back to this website, because more contents are comming soon...</p>
+        </div>
+    </div>
+    <!--HTML project-->
+    <div class="container text-center pt-4">
+        <div class="row align-items-start">
+          <div class="col">
+            <img class="img-thumbnail" src="./img/code.jpg" alt="Computer code">
+          </div>
+          <div class="col">
+            <h2 id="html">HTML5</h2>
+            <p>Please take a lookt at my GitHub site, and check out my HTML protfolio</p>
+            <a class="nav-link active" href="https://github.com/RuszoCsoki/HTML-and-CSS-Projects">HTML projects</a>
+          </div>
+        </div>
+    </div>
+    <!--JS project-->
+    <div class="container text-center pt-4">
+        <div class="row align-items-start">
+          <div class="col">
+            <h2 id="js">JS</h2>
+            <p>Please take a lookt at my GitHub site, and check out my JS protfolio</p>
+            <a class="nav-link active" href="https://github.com/RuszoCsoki/HTML-and-CSS-Projects">HTML projects</a>
+          </div>
+          <div class="col">
+            <img class="img-thumbnail" src="./img/code.jpg" alt="Computer code">
+          </div>
+        </div>
+    </div>
+    <!--cards-->
+<div class="container pt-4">
+        <h2 >Other projects:</h2>
+ <div class="row text-align-center">
+    <div class="col-sm-4" id="css">
+        <div class="card" style="width: 18rem;">
+            <img src="./img/code.jpg" class="card-img-top h-60" style="object-fit:cover" alt="abstract image">
+            <div class="card-body">
+            <h5 class="card-title">CSS projects</h5>
+            <p class="card-text">This is the CSS practice site.</p>
+            <a href="https://github.com/RuszoCsoki/HTML-and-CSS-Projects" class="btn btn-primary">GitHub</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+        <img src="./img/abstract2.jpg" class="card-img-top h-60" style="object-fit:cover" alt="abstruct globe image">
+        <div class="card-body" id="bootstrap">
+            <h5 class="card-title">Bootstrap</h5>
+            <p class="card-text">Bootstrap makes easy to build a responsive website.</p>
+            <a href="https://github.com/RuszoCsoki/Bootstrap_practice" class="btn btn-primary">GitHub</a>
+        </div>
+        </div>
+    </div>  
+    <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+        <img src="./img/anatomy.webp" class="card-img-top h-60" style="object-fit:cover" alt="Brain">
+        <div class="card-body">
+            <h5 class="card-title">JS portolio</h5>
+            <p class="card-text">Some JS projects. More comming...</p>
+            <a href="https://github.com/RuszoCsoki/Basic_HTML_and_JavaScript_1" class="btn btn-primary">GitHub</a>
+        </div>
+        </div>
+    </div>   
+  </div>
+ </div>
+ <!--footer-->
+ <div class="jumbotron-fluid my-5 text-center bg-dark text-bg-dark">
+    <ul class="nav">
+        <li class="nav-item">
+            <small><a class="nav-link" href="#">Git</a></small>
+        </li>
+        <li class="nav-item">
+            <small><a class="nav-link" href="#">Linkin</a></small>
+        </li>
+        <li class="nav-item">
+            <small><a class="nav-link" href="#">ruszo.csoki@gmail.com</a></small>
+        </li>
+        <li class="nav-item">
+            <small><a class="nav-link" href="#">&copy;2023 Zoltan Ruszo</a></small>
+        </li>
+    </ul>
+</div>  
+</body>
+</html>
